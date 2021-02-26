@@ -5,6 +5,7 @@ import Favoris from './api/components/Favoris'
 import DetailsFilm from './api/components/DetailsFilm'
 import NavBar from './api/components/NavBar'
 import {createBrowserHistory} from 'history'
+import Error from './api/components/Error';
 
 const history= createBrowserHistory()
 export default class App extends Component {
